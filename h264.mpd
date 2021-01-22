@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.4.3-dd9870075f-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT170.83999633789062S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="video" width="854" height="480" frameRate="12800/512" subsegmentAlignment="true" par="16:9">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="0294b959-9d75-5de2-bbf0-fdca3fa5eab7"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgiEGZrajNsamFTZGZhbGtyM2pI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="0" bandwidth="987105" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281">
+        <BaseURL>h264_480p.mp4</BaseURL>
+        <SegmentBase indexRange="1018-1397" timescale="12800">
+          <Initialization range="0-1017"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio" subsegmentAlignment="true">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="639da80c-f23b-55f3-b8ca-b3f64cfa5df6"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgiEGZrajNsamFTZGZhbGtyM2pI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <Representation id="1" bandwidth="395073" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"/>
+        <BaseURL>audio.mp4</BaseURL>
+        <SegmentBase indexRange="922-1301" timescale="48000">
+          <Initialization range="0-921"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="video" width="1280" height="720" frameRate="12800/512" subsegmentAlignment="true" par="16:9">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="eb676abb-cb34-5e96-bbcf-616630f1a3da"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgiEGZrajNsamFTZGZhbGtyM2pI49yVmwY=</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="2" bandwidth="3011525" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1">
+        <BaseURL>h264_720p.mp4</BaseURL>
+        <SegmentBase indexRange="999-1378" timescale="12800">
+          <Initialization range="0-998"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
