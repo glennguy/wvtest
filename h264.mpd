@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Generated with https://github.com/google/shaka-packager version v2.4.3-dd9870075f-release-->
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" publishTime="2021-05-04T11:26:42Z" availabilityStartTime="2021-05-04T11:26:40Z">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" publishTime="2021-05-04T11:26:42Z" availabilityStartTime="2021-05-04T11:26:40Z" mediaPresentationDuration="P2M49.000S">
   <Period id="0" start="PT0S">
     <AdaptationSet id="0" contentType="video" maxWidth="1280" maxHeight="720" frameRate="12800/512" segmentAlignment="true" par="16:9">
       <Representation id="0" bandwidth="981552" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
