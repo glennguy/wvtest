@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Generated with https://github.com/google/shaka-packager version v2.4.3-dd9870075f-release-->
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" publishTime="2021-05-04T11:26:42Z" availabilityStartTime="2021-05-04T11:26:40Z" mediaPresentationDuration="PT0H2M49S">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="dynamic" publishTime="2021-05-12T11:58:10Z" availabilityStartTime="2021-05-12T11:58:08Z" minimumUpdatePeriod="PT5S" timeShiftBufferDepth="PT1800S">
   <Period id="0" start="PT0S">
     <AdaptationSet id="0" contentType="video" maxWidth="1280" maxHeight="720" frameRate="12800/512" segmentAlignment="true" par="16:9">
-      <Representation id="0" bandwidth="981552" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
-        <SegmentTemplate timescale="12800" initialization="h264_480p/init.mp4" media="h264_480p/$Number$.m4s" startNumber="1">
+      <Representation id="0" bandwidth="3053427" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+        <SegmentTemplate timescale="12800" initialization="h264_720p/init.mp4" media="h264_720p/$Number$.m4s" startNumber="1">
           <SegmentTimeline>
             <S t="0" d="76800" r="2"/>
             <S t="230400" d="38400"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
-      <Representation id="1" bandwidth="3053427" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
-        <SegmentTemplate timescale="12800" initialization="h264_720p/init.mp4" media="h264_720p/$Number$.m4s" startNumber="1">
+      <Representation id="1" bandwidth="981552" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <SegmentTemplate timescale="12800" initialization="h264_480p/init.mp4" media="h264_480p/$Number$.m4s" startNumber="1">
           <SegmentTimeline>
             <S t="0" d="76800" r="2"/>
             <S t="230400" d="38400"/>
@@ -35,19 +35,17 @@
   </Period>
   <Period id="1" start="PT21S">
     <AdaptationSet id="0" contentType="video" maxWidth="1280" maxHeight="720" frameRate="12800/512" par="16:9">
-      <Representation id="0" bandwidth="1039648" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
-        <SegmentTemplate timescale="12800" initialization="h264_480p/init.mp4" media="h264_480p/$Number$.m4s" startNumber="5">
+      <Representation id="0" bandwidth="2946111" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+        <SegmentTemplate timescale="12800" initialization="h264_720p/init.mp4" media="h264_720p/$Number$.m4s" startNumber="5">
           <SegmentTimeline>
-            <S t="268800" d="76800" r="23"/>
-            <S t="2112000" d="74752"/>
+            <S t="268800" d="76800" r="8"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
-      <Representation id="1" bandwidth="3081444" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
-        <SegmentTemplate timescale="12800" initialization="h264_720p/init.mp4" media="h264_720p/$Number$.m4s" startNumber="5">
+      <Representation id="1" bandwidth="965118" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <SegmentTemplate timescale="12800" initialization="h264_480p/init.mp4" media="h264_480p/$Number$.m4s" startNumber="5">
           <SegmentTimeline>
-            <S t="268800" d="76800" r="23"/>
-            <S t="2112000" d="74752"/>
+            <S t="268800" d="76800" r="8"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
@@ -62,7 +60,37 @@
             <S t="1584128" d="288768"/>
             <S t="1872896" d="287744" r="2"/>
             <S t="2736128" d="288768"/>
-            <S t="3024896" d="287744" r="2"/>
+            <S t="3024896" d="287744" r="1"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="2" start="PT75S">
+    <AdaptationSet id="0" contentType="video" maxWidth="1280" maxHeight="720" frameRate="12800/512" par="16:9">
+      <Representation id="0" bandwidth="3081444" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+        <SegmentTemplate timescale="12800" initialization="h264_720p/init.mp4" media="h264_720p/$Number$.m4s" startNumber="14">
+          <SegmentTimeline>
+            <S t="960000" d="76800" r="14"/>
+            <S t="2112000" d="74752"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="1" bandwidth="1039648" codecs="avc1.4d401f" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <SegmentTemplate timescale="12800" initialization="h264_480p/init.mp4" media="h264_480p/$Number$.m4s" startNumber="14">
+          <SegmentTimeline>
+            <S t="960000" d="76800" r="14"/>
+            <S t="2112000" d="74752"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
+      <Representation id="2" bandwidth="390360" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="6"/>
+        <SegmentTemplate timescale="48000" initialization="audio/init.mp4" media="audio/$Number$.m4s" startNumber="14">
+          <SegmentTimeline>
+            <S t="3600384" d="287744"/>
             <S t="3888128" d="288768"/>
             <S t="4176896" d="287744" r="2"/>
             <S t="5040128" d="288768"/>
