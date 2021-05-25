@@ -7,7 +7,7 @@
         <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBNAHkASQBSAEEARgBWAEUAZAAyAGEASQBtAGEAcQA3AHoATgAzAHUALwB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AEIATQA5AGMAQgBYAFQAcQAwAEcAdwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
       </ContentProtection>
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
-      <BaseURL>https://dcs-jite.cdn.anvato.net/prod/v18/media/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period1/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-video.mp4" media="$RepresentationID$-$Number$-video.mp4" startNumber="1" timescale="10000" duration="80000"/>
       <Representation id="21640FE4290545B2AB2D48FB726C2811/4200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="4200000" width="1920" height="1080" frameRate="60/2"/>
       <Representation id="CEDDCB8816A94B8A95ACA643D073D5A0/2200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2200000" width="1280" height="720" frameRate="60/2"/>
@@ -24,7 +24,7 @@
       </ContentProtection>
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-      <BaseURL>https://dcs-jite.cdn.anvato.net/prod/v18/media/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period1/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-audio.mp4" media="$RepresentationID$-$Number$-audio.mp4" startNumber="1" timescale="44100" duration="352256"/>
       <Representation id="21640FE4290545B2AB2D48FB726C2811/4200000/fmp4-cenc" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="64000"/>
     </AdaptationSet>
@@ -37,7 +37,7 @@
         <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBNAHkASQBSAEEARgBWAEUAZAAyAGEASQBtAGEAcQA3AHoATgAzAHUALwB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AEIATQA5AGMAQgBYAFQAcQAwAEcAdwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
       </ContentProtection>
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
-      <BaseURL>https://dcs-jite.cdn.anvato.net/prod/v18/media/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period2/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-video.mp4" media="$RepresentationID$-$Number$-video.mp4" startNumber="1" timescale="10000" duration="70000"/>
       <Representation id="02857696E2264BDF9694891EC37F1155/4200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="4200000" width="1920" height="1080" frameRate="60/2"/>
       <Representation id="BC05FF98CF5645F3B859DC2338627D63/2200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2200000" width="1280" height="720" frameRate="60/2"/>
@@ -54,7 +54,7 @@
       </ContentProtection>
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-      <BaseURL>https://dcs-jite.cdn.anvato.net/prod/v18/media/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period2/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-audio.mp4" media="$RepresentationID$-$Number$-audio.mp4" startNumber="1" timescale="44100" duration="309248"/>
       <Representation id="02857696E2264BDF9694891EC37F1155/4200000/fmp4-cenc" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="64000"/>
     </AdaptationSet>
@@ -67,7 +67,7 @@
         <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBNAHkASQBSAEEARgBWAEUAZAAyAGEASQBtAGEAcQA3AHoATgAzAHUALwB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AEIATQA5AGMAQgBYAFQAcQAwAEcAdwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
       </ContentProtection>
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
-      <BaseURL>https://dcs-jite.cdn.anvato.net/prod/v18/media/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period3/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-video.mp4" media="$RepresentationID$-$Number$-video.mp4" startNumber="1" timescale="10000" duration="29600"/>
       <Representation id="DE15CA821E514229B1698663506AE3EE/4200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="4200000" width="1920" height="1080" frameRate="60/2"/>
       <Representation id="727D8027B11C49D4980EFC5E926C8E66/2200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2200000" width="1280" height="720" frameRate="60/2"/>
@@ -84,7 +84,7 @@
       </ContentProtection>
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-      <BaseURL>https://dcs-jite.cdn.anvato.net/prod/v18/media/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period3/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-audio.mp4" media="$RepresentationID$-$Number$-audio.mp4" startNumber="1" timescale="44100" duration="131072"/>
       <Representation id="DE15CA821E514229B1698663506AE3EE/4200000/fmp4-cenc" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="64000"/>
     </AdaptationSet>
@@ -97,7 +97,7 @@
       </ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED"/>
       <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" default_KID="003150fa-a1ef-bdc6-e015-0a9913a7dd5b"/>
-      <BaseURL>https://dpp-anvato-live.akamaized.net/eu/vod/10000001/20/05/12/10146217/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period4/</BaseURL>
       <SegmentTemplate initialization="audio-$RepresentationID$-init.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" media="audio-$RepresentationID$-$Number$.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" startNumber="1" timescale="44100" presentationTimeOffset="0" duration="176128">
                     
                 </SegmentTemplate>
@@ -111,7 +111,7 @@
       </ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED"/>
       <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" default_KID="023150fa-a1ef-bdc6-e015-0a9913a7dd5b"/>
-      <BaseURL>https://dpp-anvato-live.akamaized.net/eu/vod/10000001/20/05/12/10146217/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period4/</BaseURL>
       <SegmentTemplate initialization="video-$RepresentationID$-init.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" media="video-$RepresentationID$-$Number$.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" startNumber="1" timescale="10000" presentationTimeOffset="0" duration="40000">
                     
                 </SegmentTemplate>
@@ -127,7 +127,7 @@
       </ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED"/>
       <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" default_KID="013150fa-a1ef-bdc6-e015-0a9913a7dd5b"/>
-      <BaseURL>https://dpp-anvato-live.akamaized.net/eu/vod/10000001/20/05/12/10146217/</BaseURL>
+      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period4/</BaseURL>
       <SegmentTemplate initialization="video-$RepresentationID$-init.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" media="video-$RepresentationID$-$Number$.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" startNumber="1" timescale="10000" presentationTimeOffset="0" duration="40000">
                     
                 </SegmentTemplate>
