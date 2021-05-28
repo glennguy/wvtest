@@ -9,11 +9,6 @@
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
       <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period1/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-video.mp4" media="$RepresentationID$-$Number$-video.mp4" startNumber="1" timescale="10000" duration="80000"/>
-      <Representation id="21640FE4290545B2AB2D48FB726C2811/4200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="4200000" width="1920" height="1080" frameRate="60/2"/>
-      <Representation id="CEDDCB8816A94B8A95ACA643D073D5A0/2200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2200000" width="1280" height="720" frameRate="60/2"/>
-      <Representation id="2E15DEBD3B934CC59A52331DF311CAA4/1600000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1600000" width="960" height="540" frameRate="60/2"/>
-      <Representation id="4B0032A83F10470FA1ECF4A2BDCF8E79/1000000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1000000" width="640" height="360" frameRate="60/2"/>
-      <Representation id="CB96D9E1FD0F4629BA4C1122A0F0D4DC/350000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="350000" width="448" height="252" frameRate="60/2"/>
       <Representation id="452B57F723EF4C49A2C143B7E20A0F1A/120000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="120000" width="320" height="180" frameRate="60/2"/>
     </AdaptationSet>
     <AdaptationSet contentType="audio" segmentAlignment="true" bitstreamSwitching="true">
@@ -39,11 +34,6 @@
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
       <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period2/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-video.mp4" media="$RepresentationID$-$Number$-video.mp4" startNumber="1" timescale="10000" duration="70000"/>
-      <Representation id="02857696E2264BDF9694891EC37F1155/4200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="4200000" width="1920" height="1080" frameRate="60/2"/>
-      <Representation id="BC05FF98CF5645F3B859DC2338627D63/2200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2200000" width="1280" height="720" frameRate="60/2"/>
-      <Representation id="0B2031D1C82645E7BDC75A6A162D0E15/1600000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1600000" width="960" height="540" frameRate="60/2"/>
-      <Representation id="8F8A21032C5B4E47AA2BDBA557477C58/1000000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1000000" width="640" height="360" frameRate="60/2"/>
-      <Representation id="FE56D30D7A5D410ABF95D23CBA886877/350000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="350000" width="448" height="252" frameRate="60/2"/>
       <Representation id="6ECABD1DC392411B87C2E9E757AA5540/120000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="120000" width="320" height="180" frameRate="60/2"/>
     </AdaptationSet>
     <AdaptationSet contentType="audio" segmentAlignment="true" bitstreamSwitching="true">
@@ -69,11 +59,6 @@
       <ContentProtection value="Widevine" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
       <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period3/</BaseURL>
       <SegmentTemplate initialization="$RepresentationID$-init-video.mp4" media="$RepresentationID$-$Number$-video.mp4" startNumber="1" timescale="10000" duration="29600"/>
-      <Representation id="DE15CA821E514229B1698663506AE3EE/4200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="4200000" width="1920" height="1080" frameRate="60/2"/>
-      <Representation id="727D8027B11C49D4980EFC5E926C8E66/2200000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="2200000" width="1280" height="720" frameRate="60/2"/>
-      <Representation id="14A180FAD88040D7BCB2910BAEDA33B5/1600000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1600000" width="960" height="540" frameRate="60/2"/>
-      <Representation id="0BAE4F0DF48F46388C6945FC08375602/1000000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1000000" width="640" height="360" frameRate="60/2"/>
-      <Representation id="0B3FD22449C648629E5617496E07890F/350000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="350000" width="448" height="252" frameRate="60/2"/>
       <Representation id="B538F885E07945BA854FD72427CEB7C8/120000/fmp4-cenc" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="120000" width="320" height="180" frameRate="60/2"/>
     </AdaptationSet>
     <AdaptationSet contentType="audio" segmentAlignment="true" bitstreamSwitching="true">
@@ -115,27 +100,7 @@
       <SegmentTemplate initialization="video-$RepresentationID$-init.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" media="video-$RepresentationID$-$Number$.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" startNumber="1" timescale="10000" presentationTimeOffset="0" duration="40000">
                     
                 </SegmentTemplate>
-      <Representation codecs="avc1.640028" width="1920" height="1080" bandwidth="7640086" id="F544A99DBC3D7899BB48C7313B3ECC5F87A1BC53387D4">
-                                                            </Representation>
       <Representation codecs="avc1.64001f" width="1280" height="720" bandwidth="4735663" id="5746166CFB9049CBF52679AFEE0FD8802BBBC583823918">
-                                                            </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4">
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0">
-        <mspr:pro>BgIAAAEAAQD8ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AKwBsAEEAeABBAGUAKwBoAHgAcgAzAGcARgBRAHEAWgBFADYAZgBkAFcAdwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBUAFAAUQBtADkAMQA0AHMANQBmAFkAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgArAGwAQQB4AEEAZQArAGgAeAByADMAZwBGAFEAcQBaAEUANgBmAGQAVwB3AD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFQAUABRAG0AOQAxADQAcwA1AGYAWQA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED"/>
-      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" default_KID="013150fa-a1ef-bdc6-e015-0a9913a7dd5b"/>
-      <BaseURL>https://raw.githubusercontent.com/glennguy/wvtest/vtm/period4/</BaseURL>
-      <SegmentTemplate initialization="video-$RepresentationID$-init.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" media="video-$RepresentationID$-$Number$.mp4?hdntl=exp=1621968003~acl=/*~hmac=2e930e652dee685718adc23eeee82828042627604159771989918913a823af3c" startNumber="1" timescale="10000" presentationTimeOffset="0" duration="40000">
-                    
-                </SegmentTemplate>
-      <Representation codecs="avc1.64001f" width="960" height="540" bandwidth="1592266" id="F693C059F17877F53F3CE4FD119496B9D7B7A1E6B4B95F">
-                                                            </Representation>
-      <Representation codecs="avc1.64001e" width="640" height="360" bandwidth="811521" id="4DFB9D551F1342AECFA4C442164A5257F910CF2480DC5">
-                                                            </Representation>
-      <Representation codecs="avc1.64000d" width="412" height="232" bandwidth="418232" id="F291E13CFAD17FB392BD86499D66EFFE2A7FDF917546B0">
                                                             </Representation>
     </AdaptationSet>
   </Period>
